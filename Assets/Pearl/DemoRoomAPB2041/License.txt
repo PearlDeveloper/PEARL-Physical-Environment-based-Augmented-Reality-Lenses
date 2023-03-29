@@ -1,0 +1,9 @@
+// ------------------------------------------------------------------------------------
+// <copyright company="Technische Universität Dresden">
+//      Copyright (c) Technische Universität Dresden.
+//      Licensed under the MIT License.
+// </copyright>
+// <author>
+//      Zhongyuan Yu <zhongyuan.yu@tu-dresden.de>
+// </author>
+// ------------------------------------------------------------------------------------
