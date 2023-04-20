@@ -1,4 +1,4 @@
-# PEAR: Physical Environment based Augmented Reality Lenses
+# PEARL: Physical Environment based Augmented Reality Lenses
 This is the accompanying code repository for the work “PEARL: Physical Environment based Augmented Reality Lenses for In-Situ Human Movement Analysis” by Weizhou Luo, Zhongyuan Yu, Rufat Rzayev, Marc Satkowski, Stefan Gumhold, Matthew McGinity, and Raimund Dachselt. 
 
 This work will be presented at the ACM CHI 2023 conference and published as Open Access in the ACM DL (see https://doi.org/10.1145/3544548.3580715).
