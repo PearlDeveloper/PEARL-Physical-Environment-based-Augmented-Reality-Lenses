@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalysisXml name="Example Room APB2042" axis_direction_x="right" axis_direction_y="up" axis_direction_z="forward">
+	<sessions> <!-- List of all sessions, each session contains tracked objects/data streams in one or more files -->
+		<session id="0"  name="user01"/>
+		<session id="1"  name="user02"/>
+		<session id="2"  name="user03"/>
+		<session id="3"  name="user04"/>
+
+		<session id="4"  name="user05"/>
+		<session id="5"  name="user06"/>
+		<session id="6"  name="user07"/>
+		<session id="7"  name="user08"/>
+		
+		<session id="8"  name="user09"/>
+		<session id="9"  name="user10"/>
+		<session id="10" name="user11"/>
+		<session id="11" name="user12"/>
+
+		<session id="12" name="user13"/>
+		<session id="13" name="user14"/>
+		<session id="14" name="user15"/>
+		<session id="15" name="user16"/>
+
+		<session id="16" name="user17"/>
+		<session id="17" name="user18"/>
+	</sessions>
+	<conditions> <!-- list of conditions (e.g., techniques) with their names, "source" is the column in the csv files identifying the current condition -->
+		<condition id = "0">OculusTracked</condition>
+	</conditions>
+	<!-- most improtant part -->
+	<objectsources> 
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user01_head.csv" session_id="0" />
+		<objectsource object_id="1" file="DatasetAPB2042/user01_LHand.csv" session_id="0" />
+		<objectsource object_id="2" file="DatasetAPB2042/user01_RHand.csv" session_id="0" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user02_head.csv" session_id="1" />
+		<objectsource object_id="1" file="DatasetAPB2042/user02_LHand.csv" session_id="1" />
+		<objectsource object_id="2" file="DatasetAPB2042/user02_RHand.csv" session_id="1" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user03_head.csv" session_id="2" />
+		<objectsource object_id="1" file="DatasetAPB2042/user03_LHand.csv" session_id="2" />
+		<objectsource object_id="2" file="DatasetAPB2042/user03_RHand.csv" session_id="2" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user04_head.csv" session_id="3" />
+		<objectsource object_id="1" file="DatasetAPB2042/user04_LHand.csv" session_id="3" />
+		<objectsource object_id="2" file="DatasetAPB2042/user04_RHand.csv" session_id="3" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user05_head.csv" session_id="4" />
+		<objectsource object_id="1" file="DatasetAPB2042/user05_LHand.csv" session_id="4" />
+		<objectsource object_id="2" file="DatasetAPB2042/user05_RHand.csv" session_id="4" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user06_head.csv" session_id="5" />
+		<objectsource object_id="1" file="DatasetAPB2042/user06_LHand.csv" session_id="5" />
+		<objectsource object_id="2" file="DatasetAPB2042/user06_RHand.csv" session_id="5" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user07_head.csv" session_id="6" />
+		<objectsource object_id="1" file="DatasetAPB2042/user07_LHand.csv" session_id="6" />
+		<objectsource object_id="2" file="DatasetAPB2042/user07_RHand.csv" session_id="6" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user08_head.csv" session_id="7" />
+		<objectsource object_id="1" file="DatasetAPB2042/user08_LHand.csv" session_id="7" />
+		<objectsource object_id="2" file="DatasetAPB2042/user08_RHand.csv" session_id="7" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user09_head.csv" session_id="8" />
+		<objectsource object_id="1" file="DatasetAPB2042/user09_LHand.csv" session_id="8" />
+		<objectsource object_id="2" file="DatasetAPB2042/user09_RHand.csv" session_id="8" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user10_head.csv" session_id="9" />
+		<objectsource object_id="1" file="DatasetAPB2042/user10_LHand.csv" session_id="9" />
+		<objectsource object_id="2" file="DatasetAPB2042/user10_RHand.csv" session_id="9" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user11_head.csv" session_id="10" />
+		<objectsource object_id="1" file="DatasetAPB2042/user11_LHand.csv" session_id="10" />
+		<objectsource object_id="2" file="DatasetAPB2042/user11_RHand.csv" session_id="10" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user12_head.csv" session_id="11" />
+		<objectsource object_id="1" file="DatasetAPB2042/user12_LHand.csv" session_id="11" />
+		<objectsource object_id="2" file="DatasetAPB2042/user12_RHand.csv" session_id="11" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user13_head.csv" session_id="12" />
+		<objectsource object_id="1" file="DatasetAPB2042/user13_LHand.csv" session_id="12" />
+		<objectsource object_id="2" file="DatasetAPB2042/user13_RHand.csv" session_id="12" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user14_head.csv" session_id="13" />
+		<objectsource object_id="1" file="DatasetAPB2042/user14_LHand.csv" session_id="13" />
+		<objectsource object_id="2" file="DatasetAPB2042/user14_RHand.csv" session_id="13" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user15_head.csv" session_id="14" />
+		<objectsource object_id="1" file="DatasetAPB2042/user15_LHand.csv" session_id="14" />
+		<objectsource object_id="2" file="DatasetAPB2042/user15_RHand.csv" session_id="14" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user16_head.csv" session_id="15" />
+		<objectsource object_id="1" file="DatasetAPB2042/user16_LHand.csv" session_id="15" />
+		<objectsource object_id="2" file="DatasetAPB2042/user16_RHand.csv" session_id="15" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user17_head.csv" session_id="16" />
+		<objectsource object_id="1" file="DatasetAPB2042/user17_LHand.csv" session_id="16" />
+		<objectsource object_id="2" file="DatasetAPB2042/user17_RHand.csv" session_id="16" />
+		<!-- -->
+		<objectsource object_id="0" file="DatasetAPB2042/user18_head.csv" session_id="17" />
+		<objectsource object_id="1" file="DatasetAPB2042/user18_LHand.csv" session_id="17" />
+		<objectsource object_id="2" file="DatasetAPB2042/user18_RHand.csv" session_id="17" />
+		
+	</objectsources>
+	<objects> <!-- list of objects each object/datastream consists of different attributes, this list defines them -->
+		<object id="0" parent="-1" name="head" type="trackable" data_source="OculusTracked" static="false" units="m" 
+			hue="0.575" saturation="1.0" value="1.0" rotation_format="quaternion" time_format="long">
+			<transform_position_x>poseX</transform_position_x>
+			<transform_position_y>poseY</transform_position_y>
+			<transform_position_z>poseZ</transform_position_z>
+			<transform_rotation_w>oriW</transform_rotation_w>
+			<transform_rotation_x>oriX</transform_rotation_x>
+			<transform_rotation_y>oriY</transform_rotation_y>
+			<transform_rotation_z>oriZ</transform_rotation_z>
+			<timestamp>timestamp</timestamp>
+      		<model>normalHead.obj</model> <!-- temp object  -->
+		</object>    
+	</objects>
+	<objects> <!-- list of objects each object/datastream consists of different attributes, this list defines them -->
+		<object id="1" parent="-1" name="lhand" type="trackable" data_source="OculusTracked" static="false" units="m" 
+			hue="0.575" saturation="1.0" value="1.0" rotation_format="quaternion" time_format="long">
+			<transform_position_x>poseX</transform_position_x>
+			<transform_position_y>poseY</transform_position_y>
+			<transform_position_z>poseZ</transform_position_z>
+			<transform_rotation_w>oriW</transform_rotation_w>
+			<transform_rotation_x>oriX</transform_rotation_x>
+			<transform_rotation_y>oriY</transform_rotation_y>
+			<transform_rotation_z>oriZ</transform_rotation_z>
+      		<transform_scale_x>{1.0}</transform_scale_x>
+      		<transform_scale_y>{1.0}</transform_scale_y>
+      		<transform_scale_z>{1.0}</transform_scale_z>
+			<timestamp>timestamp</timestamp>
+      		<model>RHand.obj</model> <!-- temp object  -->
+		</object>    
+	</objects>
+	<objects> <!-- list of objects each object/datastream consists of different attributes, this list defines them -->
+		<object id="2" parent="-1" name="rhand" type="trackable" data_source="OculusTracked" static="false" units="m" 
+			hue="0.575" saturation="1.0" value="1.0" rotation_format="quaternion" time_format="long">
+			<transform_position_x>poseX</transform_position_x>
+			<transform_position_y>poseY</transform_position_y>
+			<transform_position_z>poseZ</transform_position_z>
+			<transform_rotation_w>oriW</transform_rotation_w>
+			<transform_rotation_x>oriX</transform_rotation_x>
+			<transform_rotation_y>oriY</transform_rotation_y>
+			<transform_rotation_z>oriZ</transform_rotation_z>
+      		<transform_scale_x>{1.0}</transform_scale_x>
+      		<transform_scale_y>{1.0}</transform_scale_y>
+      		<transform_scale_z>{1.0}</transform_scale_z>
+			<timestamp>timestamp</timestamp>
+      		<model>LHand.obj</model> <!-- temp object  -->
+		</object>    
+	</objects>
+</AnalysisXml>
+
+	<!-- <anchors>  list of anchors for 2D view containers
+		<anchor id="0" parent="-1" units="m" rotation_format="direction_vector">
+			<transform_position_x>{4.0}</transform_position_x>
+      		<transform_position_y>{-1.72}</transform_position_y>
+      		<transform_position_z>{0.0}</transform_position_z>
+      		<transform_rotation_w></transform_rotation_w>
+      		<transform_rotation_x>{0.0}</transform_rotation_x>
+      		<transform_rotation_y>{-1.0}</transform_rotation_y>
+      		<transform_rotation_z>{0.0}</transform_rotation_z>
+      		<transform_scale_x>{10.0}</transform_scale_x>
+      		<transform_scale_y>{10.0}</transform_scale_y>
+  			<transform_scale_z>{1.0}</transform_scale_z>
+		</anchor>
+	</anchors>   -->
